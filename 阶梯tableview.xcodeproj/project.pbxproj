@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DAE23571DC2E9F60002075C /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE23561DC2E9F60002075C /* OneViewController.m */; };
+		5DAE235A1DC2EA080002075C /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE23591DC2EA080002075C /* TwoViewController.m */; };
+		5DAE235D1DC2EA160002075C /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE235C1DC2EA160002075C /* ThreeViewController.m */; };
 		5DDE27091D73D785003DBB34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE27081D73D785003DBB34 /* main.m */; };
 		5DDE270C1D73D785003DBB34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE270B1D73D785003DBB34 /* AppDelegate.m */; };
 		5DDE270F1D73D785003DBB34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE270E1D73D785003DBB34 /* ViewController.m */; };
@@ -16,6 +19,7 @@
 		5DDE271A1D73D785003DBB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDE27181D73D785003DBB34 /* LaunchScreen.storyboard */; };
 		5DDE27251D73D785003DBB34 /* __tableviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE27241D73D785003DBB34 /* __tableviewTests.m */; };
 		5DDE27301D73D785003DBB34 /* __tableviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE272F1D73D785003DBB34 /* __tableviewUITests.m */; };
+		5DDE273F1D73DDBD003DBB34 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE273E1D73DDBD003DBB34 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DAE23551DC2E9F60002075C /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		5DAE23561DC2E9F60002075C /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		5DAE23581DC2EA080002075C /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		5DAE23591DC2EA080002075C /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		5DAE235B1DC2EA160002075C /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		5DAE235C1DC2EA160002075C /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
 		5DDE27041D73D785003DBB34 /* 阶梯tableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "阶梯tableview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDE27081D73D785003DBB34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5DDE270A1D73D785003DBB34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +63,8 @@
 		5DDE272B1D73D785003DBB34 /* 阶梯tableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "阶梯tableviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDE272F1D73D785003DBB34 /* __tableviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __tableviewUITests.m; sourceTree = "<group>"; };
 		5DDE27311D73D785003DBB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DDE273D1D73DDBD003DBB34 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		5DDE273E1D73DDBD003DBB34 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +119,14 @@
 				5DDE270B1D73D785003DBB34 /* AppDelegate.m */,
 				5DDE270D1D73D785003DBB34 /* ViewController.h */,
 				5DDE270E1D73D785003DBB34 /* ViewController.m */,
+				5DDE273D1D73DDBD003DBB34 /* TableViewController.h */,
+				5DDE273E1D73DDBD003DBB34 /* TableViewController.m */,
+				5DAE23581DC2EA080002075C /* TwoViewController.h */,
+				5DAE23591DC2EA080002075C /* TwoViewController.m */,
+				5DAE235B1DC2EA160002075C /* ThreeViewController.h */,
+				5DAE235C1DC2EA160002075C /* ThreeViewController.m */,
+				5DAE23551DC2E9F60002075C /* OneViewController.h */,
+				5DAE23561DC2E9F60002075C /* OneViewController.m */,
 				5DDE27101D73D785003DBB34 /* Main.storyboard */,
 				5DDE27161D73D785003DBB34 /* Assets.xcassets */,
 				5DDE27181D73D785003DBB34 /* LaunchScreen.storyboard */,
@@ -273,10 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DAE235A1DC2EA080002075C /* TwoViewController.m in Sources */,
 				5DDE270F1D73D785003DBB34 /* ViewController.m in Sources */,
 				5DDE27151D73D785003DBB34 /* __tableview.xcdatamodeld in Sources */,
 				5DDE270C1D73D785003DBB34 /* AppDelegate.m in Sources */,
+				5DAE23571DC2E9F60002075C /* OneViewController.m in Sources */,
+				5DDE273F1D73DDBD003DBB34 /* TableViewController.m in Sources */,
 				5DDE27091D73D785003DBB34 /* main.m in Sources */,
+				5DAE235D1DC2EA160002075C /* ThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +526,7 @@
 				5DDE27361D73D785003DBB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DDE27371D73D785003DBB34 /* Build configuration list for PBXNativeTarget "阶梯tableviewTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +535,7 @@
 				5DDE27391D73D785003DBB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DDE273A1D73D785003DBB34 /* Build configuration list for PBXNativeTarget "阶梯tableviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +544,7 @@
 				5DDE273C1D73D785003DBB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
